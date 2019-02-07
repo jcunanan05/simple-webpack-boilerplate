@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jcunanan05/simple-webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/jcunanan05/simple-webpack-boilerplate#readme"
+  "homepage": "https://github.com/jcunanan05/simple-webpack-boilerplate#readme",
+  "dependencies": {
+    "webpack": "^4.29.2"
+  }
 }
