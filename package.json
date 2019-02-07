@@ -1,0 +1,22 @@
+{
+  "name": "simple-webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "This is a simple webpack HTML CSS JS template. I made it to apply what I learned in watching webpack fundamentals tutorials. My goal is to give static website development extra superpowers. This template is good for creating small static websites and deploying the build folder to a static hosting provider.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcunanan05/simple-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Jonathan Cunanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcunanan05/simple-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jcunanan05/simple-webpack-boilerplate#readme"
+}
