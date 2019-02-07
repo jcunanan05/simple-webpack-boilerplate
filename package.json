@@ -4,6 +4,8 @@
   "description": "This is a simple webpack HTML CSS JS template. I made it to apply what I learned in watching webpack fundamentals tutorials. My goal is to give static website development extra superpowers. This template is good for creating small static websites and deploying the build folder to a static hosting provider.",
   "main": "index.js",
   "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack",
     "test": "echo \"test\""
   },
   "repository": {
@@ -21,5 +23,8 @@
   "homepage": "https://github.com/jcunanan05/simple-webpack-boilerplate#readme",
   "dependencies": {
     "webpack": "^4.29.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
   }
 }
