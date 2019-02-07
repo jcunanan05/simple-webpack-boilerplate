@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run dev",
-    "dev": "webpack",
+    "build": "npm run clean && npm run prod",
+    "webpack": "webpack",
+    "dev": "npm run webpack -- --env.mode development",
+    "prod": "npm run webpack -- --env.mode production",
+    "clean": "rimraf dist",
     "test": "echo \"test\""
   },
   "repository": {
@@ -22,6 +26,7 @@
   },
   "homepage": "https://github.com/jcunanan05/simple-webpack-boilerplate#readme",
   "dependencies": {
+    "rimraf": "^2.6.3",
     "webpack": "^4.29.2"
   },
   "devDependencies": {
