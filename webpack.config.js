@@ -16,7 +16,16 @@ module.exports = ({ mode } = { mode: 'production' }) => {
           title: 'Sample App',
           template: path.join(__dirname, 'src/index.html')
         })
-      ]
+      ],
+      module: {
+        rules: [
+          {
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: ['babel-loader']
+          }
+        ]
+      }
     },
     modeConfig(mode)
   );
