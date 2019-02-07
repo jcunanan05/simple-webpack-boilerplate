@@ -23,6 +23,10 @@ module.exports = ({ mode } = { mode: 'production' }) => {
             test: /\.js$/,
             exclude: /node_modules/,
             use: ['babel-loader']
+          },
+          {
+            test: /\.html$/,
+            use: ['raw-loader']
           }
         ]
       }
