@@ -11,7 +11,12 @@ module.exports = ({ mode } = { mode: 'production' }) => {
       output: {
         filename: 'bundle.js'
       },
-      plugins: [new HtmlWebpackPlugin()]
+      plugins: [
+        new HtmlWebpackPlugin({
+          title: 'Sample App',
+          template: path.join(__dirname, 'src/index.html')
+        })
+      ]
     },
     modeConfig(mode)
   );
